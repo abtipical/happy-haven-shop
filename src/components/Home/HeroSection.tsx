@@ -9,8 +9,8 @@ import categoryShoes from '@/assets/category-shoes.jpg';
 
 const HeroSection = () => {
   const heroImages = [
-    { src: heroBanner, alt: "Kids Paradise - Premium children's products" },
     { src: sampleProducts, alt: "Featured Products Collection" },
+    { src: heroBanner, alt: "Kids Paradise - Premium children's products" },
     { src: categoryClothes, alt: "Trendy Kids Clothing" },
     { src: categoryShoes, alt: "Stylish Kids Footwear" }
   ];
