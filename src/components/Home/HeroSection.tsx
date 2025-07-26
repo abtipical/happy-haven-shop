@@ -9,8 +9,8 @@ import categoryShoes from '@/assets/category-shoes.jpg';
 
 const HeroSection = () => {
   const heroImages = [
-    { src: sampleProducts, alt: "Featured Products Collection" },
     { src: heroBanner, alt: "Kids Paradise - Premium children's products" },
+    { src: sampleProducts, alt: "Featured Products Collection" },
     { src: categoryClothes, alt: "Trendy Kids Clothing" },
     { src: categoryShoes, alt: "Stylish Kids Footwear" }
   ];
@@ -86,11 +86,6 @@ const HeroSection = () => {
                   />
                 ))}
               </div>
-            </div>
-            
-            {/* Floating Target Element */}
-            <div className="absolute -top-4 -left-4 w-20 h-20 bg-warning rounded-full flex items-center justify-center shadow-lg hero-float">
-              <span className="text-2xl">🎯</span>
             </div>
             
             {/* Chat/Contact Button */}
