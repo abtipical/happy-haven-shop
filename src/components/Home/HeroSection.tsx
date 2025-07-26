@@ -88,6 +88,11 @@ const HeroSection = () => {
               </div>
             </div>
             
+            {/* Floating Target Element */}
+            <div className="absolute -top-4 -left-4 w-20 h-20 bg-warning rounded-full flex items-center justify-center shadow-lg hero-float">
+              <span className="text-2xl">🎯</span>
+            </div>
+            
             {/* Chat/Contact Button */}
             <div className="absolute -bottom-4 -right-4">
               <Button 
