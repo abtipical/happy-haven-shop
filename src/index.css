@@ -137,20 +137,24 @@
   .category-card {
     @apply bg-card border border-border rounded-2xl p-6 shadow-sm
            hover:shadow-lg hover:scale-105 transform transition-all duration-300
-           cursor-pointer group overflow-hidden relative;
+           cursor-pointer overflow-hidden relative;
   }
 
   .category-card::before {
     content: '';
     @apply absolute inset-0 bg-gradient-to-br from-primary/5 to-accent/5
-           opacity-0 group-hover:opacity-100 transition-opacity duration-300;
+           opacity-0 transition-opacity duration-300;
+  }
+
+  .category-card:hover::before {
+    @apply opacity-100;
   }
 
   /* Product Cards */
   .product-card {
     @apply bg-card border border-border rounded-xl overflow-hidden shadow-sm
            hover:shadow-lg transform hover:scale-102 transition-all duration-300
-           cursor-pointer group;
+           cursor-pointer;
   }
 
   /* Hero Animations */
