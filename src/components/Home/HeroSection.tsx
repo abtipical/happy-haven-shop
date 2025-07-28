@@ -11,15 +11,6 @@ const HeroSection = () => {
           {/* Content */}
           <div className="space-y-8">
             <div className="space-y-4">
-              <div className="flex items-center space-x-2">
-                <div className="flex items-center space-x-1">
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className="w-4 h-4 fill-warning text-warning" />
-                  ))}
-                </div>
-                <span className="text-sm text-muted-foreground">Trusted by 10,000+ parents</span>
-              </div>
-              
               <h1 className="text-4xl lg:text-6xl font-bold text-foreground leading-tight">
                 Everything Your
                 <span className="block text-primary hero-float">Little Ones</span>
@@ -42,21 +33,6 @@ const HeroSection = () => {
               <Button size="lg" variant="outline" className="btn-soft">
                 View Categories
               </Button>
-            </div>
-
-            <div className="grid grid-cols-3 gap-8 pt-8 border-t border-border/50">
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary">10K+</div>
-                <div className="text-sm text-muted-foreground">Happy Families</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary">5★</div>
-                <div className="text-sm text-muted-foreground">Customer Rating</div>
-              </div>
-              <div className="text-center">
-                <div className="text-2xl font-bold text-primary">1000+</div>
-                <div className="text-sm text-muted-foreground">Products</div>
-              </div>
             </div>
           </div>
 
